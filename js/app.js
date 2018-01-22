@@ -1,6 +1,7 @@
 document.getElementById('myForm').addEventListener('submit', saveIssue);
 
 function saveIssue(e){
+
     const id = chance.guid();
     const description = document.getElementById('issueDesc').value;
     const riskLevel = document.getElementById('issueRiskLevel').value;
